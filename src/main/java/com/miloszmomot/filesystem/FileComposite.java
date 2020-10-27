@@ -7,7 +7,11 @@ public class FileComposite {
         fileList=fileComponent;
     }
 
-    public void getFileList(){
-        fileList.displayFileInfo();
+    public void tree(){
+        fileList.tree();
     }
+    public void ls(){
+        fileList.ls();
+    }
+
 }
