@@ -38,15 +38,19 @@ public class Main {
         folder5.add(plik7);
 
         FileComposite systemPlikow = new FileComposite(wszystkiePliki);
-
+        System.out.println("Prezentacja metody tree()");
         systemPlikow.tree();
+        System.out.println("Prezentacja metody ls() dla foldera głownego");
         systemPlikow.ls();
         System.out.printf("\n");
+        System.out.println("Prezentacja metody ls() dla wybranego foldera");
         folder3.ls();
         System.out.printf("\n");
         folder3.remove(plik5);
         System.out.printf("\n");
+        System.out.println("Prezentacja metody more() na wybranym pliku");
         plik3.more();
+        System.out.println("Prezentacja metody sprawdzającej poprawność nazwy pliku");
         System.out.println(plik3.isNameValid());
     }
 }
