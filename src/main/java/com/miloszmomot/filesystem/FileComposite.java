@@ -1,16 +1,17 @@
 package com.miloszmomot.filesystem;
 
 public class FileComposite {
-    FileComponent fileList;
+    private FileComponent fileList;
 
-    public FileComposite(FileComponent fileComponent){
-        fileList=fileComponent;
+    public FileComposite(FileComponent fileComponent) {
+        fileList = fileComponent;
     }
 
-    public void tree(){
+    public void tree() {
         fileList.tree();
     }
-    public void ls(){
+
+    public void ls() {
         fileList.ls();
     }
 

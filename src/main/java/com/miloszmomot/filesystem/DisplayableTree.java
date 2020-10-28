@@ -1,5 +1,5 @@
 package com.miloszmomot.filesystem;
 
 public interface DisplayableTree {
-    void displayTreeLine(int wciecie);
+    void tree(int indent);
 }
